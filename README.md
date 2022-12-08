@@ -28,6 +28,9 @@ El endpoint desarrollado para realizar las consultas den GraphQL es */consultas/
         estaciones {
             id
             nombre
+            linea
+            est
+            ubicacion
         } 
     }
     ```
@@ -35,7 +38,8 @@ El endpoint desarrollado para realizar las consultas den GraphQL es */consultas/
     ```
     {
         estaciones(id:5) {
-            ubicacion
+            id
+        ubicacion
         } 
     }
     ````
