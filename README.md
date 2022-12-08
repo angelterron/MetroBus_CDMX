@@ -16,7 +16,7 @@ Para poder ejecutar el proyecto es necesario crear el contenedor de Docker con l
 
 - Se crea el contenedor para iniciar la API:
 
-    `docker build -t dev/metrobus . `
+    `docker run -p 8000:8000 dev/metrobus`
 
 ## Prueba del proyecto
 
